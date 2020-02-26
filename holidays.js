@@ -3,7 +3,7 @@ var NEXT_DAY = require('./nextDay.js');
 var EASTER_WEEK_HOLIDAYS = [
     { day: -3, daysToSum: NEXT_DAY.NONE, celebration: 'Jueves Santo' },
     { day: -2, daysToSum: NEXT_DAY.NONE, celebration: 'Viernes Santo' },
-    { day: 39, daysToSum: NEXT_DAY.MONDAY, celebration: 'Ascensión del Señor' },
+    { day: 43, daysToSum: NEXT_DAY.MONDAY, celebration: 'Ascensión del Señor' },
     { day: 60, daysToSum: NEXT_DAY.MONDAY, celebration: 'Corphus Christi' },
     { day: 68, daysToSum: NEXT_DAY.MONDAY, celebration: 'Sagrado Corazón de Jesús' }
 ];
